@@ -24,7 +24,7 @@ export default function Home() {
             Dasar-Dasar Komputer
           </h1>
           <p className="mt-2 text-muted">
-            Konsep Sistem Informasi — Rayhan Nulhafiz
+            Konsep Sistem Informasi — Rayhan Nulhafiz(2604140026)
           </p>
         </header>
 
