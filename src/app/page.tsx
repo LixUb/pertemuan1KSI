@@ -1,5 +1,6 @@
 import { Sidebar } from "@/components/layout/Sidebar";
 import { Badge } from "@/components/ui/Badge";
+import { AboutMeSection } from "@/components/sections/AboutMeSection";
 import { OverviewSection } from "@/components/sections/OverviewSection";
 import { HSBSection } from "@/components/sections/HSBSection";
 import { IOSection } from "@/components/sections/IOSection";
@@ -29,6 +30,7 @@ export default function Home() {
         </header>
 
         <main className="space-y-24 px-4 py-8 md:px-8 md:py-12 lg:px-12">
+          <AboutMeSection />
           <OverviewSection />
           <HSBSection />
           <IOSection />
